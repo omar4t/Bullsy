@@ -115,7 +115,7 @@ li.active a {
     font-size: 14px;
     margin: 0 -10px;
     padding: 10px 15px;
-    text-transform: initial;
+    text-transform: none;
 }
 
 .sub-menu li a:hover {
@@ -176,14 +176,15 @@ li.active a {
     border: 3px solid #fff;
     bottom: 30px;
     height: 13%;
+    width: 40%;
     left: 29%;
     margin: 0;
     opacity: 0;
     filter: alpha(opacity=0);
     overflow: hidden;
+    box-sizing: border-box;
     -webkit-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s;
-    width: 40%;
 }
 
 .slider .carousel-indicators li {
@@ -197,19 +198,18 @@ li.active a {
     position: relative;
     text-indent: -999px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .carousel-indicators .active {
     left: 0;
     margin-left: -30%;
-    position: initial;
     text-align: center;
     width: 60%;
     z-index: 15;
 }
 
 .carousel-indicators li img {
-    display: inline-block;
     float: left;
     height: 60px;
     text-align: center;
@@ -409,10 +409,6 @@ li.active a {
 
 /* ==================== Recent Posts area ===================== */
 
-.recent-posts-area {
-    
-}
-
 .recent-posts-area h1 {
     text-align: center;
 }
@@ -440,8 +436,6 @@ li.active a {
     filter: alpha(opacity=70);
 }
 
-.recent-caption {}
-
 .recent-caption h2 {
     text-transform: uppercase;
     margin: 20px 0;
@@ -461,13 +455,6 @@ li.active a {
 
 .recent-caption h4 span {
     color: #473F3A;
-}
-
-.date {
-}
-
-.user {
-    
 }
 
 .recent-caption p {
@@ -579,6 +566,7 @@ li.active a {
     box-shadow: 0 0 0 0;
     height: 40px;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .progress-bar-success {
@@ -598,10 +586,6 @@ li.active a {
 
 
 /* ==================== Sponsors Area ===================== */
-
-.sponsors-area {
-    
-}
 
 .sponsors-area h1 {
     text-align: center;
@@ -757,9 +741,6 @@ li.active a {
     padding: 10px 0;
 }
 
-.footer-bottom-area ul li a {
-}
-
 .footer-bottom-area ul li:nth-child(1) a,
 .footer-bottom-area ul li:nth-child(2) a,
 .footer-bottom-area ul li:nth-child(3) a,
@@ -901,16 +882,8 @@ li.active a {
     text-decoration: underline;
 }
 
-.recent-post iframe {
-
-}
-
 .embed-responsive-4by3 {
     padding-bottom: 47%;
-}
-
-.news-posts img {
-
 }
 
 .news-posts img:hover {
@@ -977,9 +950,6 @@ li.active a {
 
 /* ================= News Sidebar ==================== */
 
-.news-sidebar {
-}
-
 .news-sidebar .col-md-3 {
     background-color: #FFFFFF;
     padding: 0 20px;
@@ -1028,10 +998,6 @@ li.active a {
     color: #F55856;
 }
 
-.single-sidebar ul {}
-
-.single-sidebar ul li {}
-
 .single-sidebar ul li a {
     color: #2a2b2c;
     display: block;
@@ -1049,6 +1015,7 @@ li.active a {
     font-size: 16px;
     padding: 15px 10px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cloud-tags {
@@ -1121,9 +1088,6 @@ li.active a {
     padding: 0 5px;
 }
 
-.portfolio-tab ul li {
-}
-
 .portfolio-tab ul li a {
     font-size: 16px;
     color: #463f3a;
@@ -1146,9 +1110,6 @@ li.active a {
 /* =================================================== This CSS For Team Page ================================================== */
 /* ============================================================================================================================= */
 
-.team-area {}
-
-.team {}
 
 .single-team {
     border-bottom: medium double #eee;
@@ -1176,15 +1137,10 @@ li.active a {
     margin-bottom: 5px;
 }
 
-.team-profile ul {}
-
 .team-profile ul li {
     background: #3b3532 none repeat scroll 0 0;
     margin: 0 1px;
-    padding: 0px;
-}
-
-.team-profile ul li a {
+    padding: 0;
 }
 
 .team-profile ul li a.facebook {
@@ -1236,8 +1192,6 @@ li.active a {
     border: 5px solid #463F3A;
 }
 
-.icon {}
-
 .icon img {
     background-color: #F55856;
     padding: 15px;
@@ -1257,7 +1211,6 @@ li.active a {
 /* ================================================== This CSS For Contact Form ================================================ */
 /* ============================================================================================================================= */
 
-.google-map {}
 .google-map iframe {
     height: 400px;
     width: 100%;
