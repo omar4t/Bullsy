@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fdfdfd;
+    font-size: 14px;
+    color: #463f3a;
+    padding-top: 45px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+span {
+    color: #F55856;
+}
+
+a {
+    -webkit-transition: all ease 0.5s;        /* Chrome, Safari */
+       -moz-transition: all ease 0.5s;        /* Firefox */
+        -ms-transition: all ease 0.5s;        /* IE */
+         -o-transition: all ease 0.5s;        /* Opera */
+            transition: all ease 0.5s;        /* Standard Syntax */
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F55856;
+}
+
+ol, ul {
+    margin-bottom: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+input,
+textarea {
+    font-family: 'Open Sans', sans-serif;
+}

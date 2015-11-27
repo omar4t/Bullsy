@@ -1,0 +1,1337 @@
+
+/* =============================================================================== */
+/* ============================= This CSS for Header ============================= */
+/* =============================================================================== */
+
+.header-area {
+    border-top: 5px solid #f55856;
+    padding: 10px 0;
+    background: #FDFDFD;
+    border-bottom: 1px solid #F2F2F0;
+}
+
+.header-area i {
+    font-size: 16px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    color: #463f3a;
+    padding: 0 5px;
+    text-transform: uppercase;
+    -webkit-transition: all ease 0.5s;
+            transition: all ease 0.5s;
+}
+
+.header-right a:hover {
+    color: #F55856;
+}
+
+
+
+
+/* =============================================================================== */
+/* ============================= This CSS for Header ============================= */
+/* =============================================================================== */
+
+.navbar-area {
+    background: #F5F6F1;
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 20px 0 0;
+    height: 65px;
+}
+
+.nav > li {
+    position: relative;
+    height: 70px;
+}
+
+.nav li a {
+    font-size: 18px;
+    color: #47403a;
+    text-transform: uppercase;
+    -webkit-transition: all ease 0.5s;
+            transition: all ease 0.5s;
+}
+
+.nav li a span {
+    padding-left: 17px;
+}
+
+.nav li:hover > a,
+li.active a {
+    background: none;
+    color: #F55856;
+}
+
+
+
+/* Dropdown Menu CSS */
+
+.sub-menu {
+    background-color: #fff;
+    border-bottom: 5px solid #f55856;
+    box-shadow: -1px 0 6px -1px #999;
+    left: 0;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    top: 70px;
+    min-width: 180px;
+    z-index: 99;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all ease 0.5s;
+            transition: all ease 0.5s;
+}
+
+.nav li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.sub-menu li {
+    border-bottom: 1px solid #eee;
+    margin: 0 10px;
+}
+
+.sub-menu li a {
+    color: #47403a;
+    display: block;
+    font-size: 14px;
+    margin: 0 -10px;
+    padding: 10px 15px;
+    text-transform: initial;
+}
+
+.sub-menu li a:hover {
+    background-color: #FCFBFB;
+}
+
+
+
+/* =============================================================================== */
+/* ============================= This CSS for Slider ============================= */
+/* =============================================================================== */
+
+
+.slider-area {
+    margin-top: 35px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-caption {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.caption-left {
+    float: left;
+    width: 40%;
+    padding-left: 7%;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.caption-left h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 45px 0;
+}
+
+.caption-right {
+    float: right;
+    width: 60%;
+    margin-top: 10%;
+}
+
+.caption-right img {
+    float: right;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.carousel-indicators {
+    border: 3px solid #fff;
+    bottom: 30px;
+    height: 13%;
+    left: 29%;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+    width: 40%;
+}
+
+.slider .carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    border-radius: 0;
+    cursor: pointer;
+    display: inherit;
+    height: auto;
+    margin: 0;
+    position: relative;
+    text-indent: -999px;
+    width: 100%;
+}
+
+.carousel-indicators .active {
+    left: 0;
+    margin-left: -30%;
+    position: initial;
+    text-align: center;
+    width: 60%;
+    z-index: 15;
+}
+
+.carousel-indicators li img {
+    display: inline-block;
+    float: left;
+    height: 60px;
+    text-align: center;
+    width: 33.334%;
+}
+
+.slider:hover .carousel-indicators {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/* ============ Slider Bottom =================== */
+
+.slider-bottom {
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.slider-text {
+    background-color: #F5F6F1;
+    text-align: center;
+    padding: 10px 0;
+    color: #473F3A;
+}
+
+.slider-text h2 {
+    font-size: 30px;
+}
+
+.slider-text p {
+    font-size: 16px;
+    -webkit-transition: .1s;
+            transition: .1s;
+}
+
+.slider-text p strong {
+    color: #F55856;
+}
+
+.slider-text:hover {
+    background-color: #F55856;
+}
+
+.slider-text:hover {
+    color: #fff;
+}
+
+.slider-text:hover p strong {
+    color: #fff;
+}
+
+.slider-text:hover p {
+    -webkit-transition: 0s;
+            transition: 0s;
+}
+
+
+
+
+
+/* =============================================================================== */
+/* ============================= This CSS for Slider ============================= */
+/* =============================================================================== */
+
+.portfolio-area {
+    background-color: #F8F8F8;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0 40px;
+}
+
+.title-border-left,
+.title-border-right {
+    background-image: url("image/titleBorder.png");
+    height: 7px;
+    position: relative;
+    width: 35%;
+}
+
+.title-border-left {
+    left: 15px;
+    top: 46px;
+}
+
+.title-border-right {
+    right: -63.7%;
+    top: -35px;
+}
+
+.portfolio-area h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.navigator {
+    text-align: right;
+    margin-right: 19px;
+    margin-top: -20px;
+}
+
+.navigator i {
+    background-color: #473f3a;
+    color: #fff;
+    margin-right: -4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    -webkit-transition: all ease .5s;
+            transition: all ease .5s;
+}
+
+.navigator i:hover {
+    background-color: #F55856;
+}
+
+.single-portfolio {
+    margin-top: 10px;
+}
+
+.thumbnail {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: 0 0 1px 1px #eee;
+    padding: 0;
+}
+
+.portfolio-image {
+    position: relative;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-overlay {
+    background: rgba(245, 88, 86, 0.8) url("images/plusIcon.png") no-repeat scroll 160px 140px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: .3s;
+            transition: .3s;
+}
+
+.portfolio-overlay p {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    height: 50px;
+    left: 40%;
+    padding: 0 43px 62px 20px;
+    position: relative;
+    top: 35%;
+    width: 50px;
+}
+
+.portfolio-image:hover .portfolio-overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.caption h2 {
+    margin: 8px 0 12px;
+    text-transform: uppercase;
+}
+
+.caption p {
+    font-size: 1.12em;
+    line-height: 1.7em;
+}
+
+.caption a {
+    font-size: 19px;
+    color: #F55856;
+}
+
+.caption a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* =============================================================================== */
+/* ========================= This CSS for Main Content =========================== */
+/* =============================================================================== */
+
+.main-content-area {
+    padding: 15px 0 60px;
+}
+
+/* ==================== Recent Posts area ===================== */
+
+.recent-posts-area {
+    
+}
+
+.recent-posts-area h1 {
+    text-align: center;
+}
+
+.recent-border-left {
+    width: 30%;
+}
+
+.recent-border-right {
+    right: -69%;
+    width: 29.8%;
+}
+
+.recent-post {
+    margin-top: 10px;
+}
+
+.recent-post img {
+    -webkit-transition: .5s;
+            transition: .5s;
+}
+
+.recent-post img:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+.recent-caption {}
+
+.recent-caption h2 {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.recent-caption h4 {
+    font-size: 15px;
+}
+
+.recent-caption h4 span a {
+    color: #F55856;
+}
+
+.recent-caption h4 span a:hover {
+    text-decoration: underline;
+}
+
+.recent-caption h4 span {
+    color: #473F3A;
+}
+
+.date {
+}
+
+.user {
+    
+}
+
+.recent-caption p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+
+
+
+/* ==================== Author Details area ===================== */
+
+.author-details-area {
+    padding: 50px 0;
+}
+
+.author-details-area h1 {
+    float: left;
+    width: 35%;
+    margin: 25px 0 40px;
+}
+
+.author-border {
+    float: right;
+    margin-right: 11%;
+    width: 48%;
+}
+
+.author-details {
+    clear: both;
+}
+
+.img-circle {
+    border: 5px solid #463F3A;
+    float: left;
+    margin-right: 25px;
+}
+
+.author-details p {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #757575;
+}
+
+.author-details h5 {
+    margin-top: 20px;
+}
+
+.author-details h5 strong a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #463f3a;
+    -webkit-transition: .3s;
+            transition: .3s;
+}
+
+.author-details h5 strong a:hover {
+    color: #F55856;
+}
+
+.post {
+    color: #2a2b2c;
+    font-size: 18px;
+}
+
+.author-bottom {
+    background: rgba(0, 0, 0, 0) url("image/mainBorderLine.png") repeat-x scroll 0 0;
+    height: 1px;
+    margin-bottom: 31px;
+    margin-left: 25%;
+    margin-top: 40px;
+    width: 75%;
+}
+
+.author-divider {
+    background: #f55856 none repeat scroll 0 0;
+    height: 6px;
+    width: 15%;
+    position: relative;
+    top: -3px;
+}
+
+
+
+
+/* ==================== Progress bars ===================== */
+
+.skills-border {
+    float: right;
+    margin-right: 13%;
+    width: 52%;
+}
+
+.single-progress-bar {
+    clear: both;
+}
+
+.single-progress-bar h3 {
+    font-family: "Oswald",sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.progress {
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.progress-bar-success {
+    background-color: #f55856;
+}
+
+.progress-bar-striped {
+    background-image: url("image/stripesPattern.png");
+    background-repeat: repeat-x;
+}
+
+.progress-bar-darken {
+    background-color: #db3f3d;
+}
+
+
+
+
+/* ==================== Sponsors Area ===================== */
+
+.sponsors-area {
+    
+}
+
+.sponsors-area h1 {
+    text-align: center;
+}
+
+.sponsor-border-left {
+    width: 32%;
+}
+
+.sponsor-border-right {
+    right: -67%;
+    width: 33%;
+}
+
+.bullsy-carousel {
+    
+}
+
+.bullsy-carousel a img {
+    background-color: #ffffff;
+    float: left;
+    margin-right: 1.5%;
+    width: 18.8%;
+    border-bottom: 3px solid #eee;
+    -webkit-transition: .5s;
+            transition: .5s;
+}
+
+.bullsy-carousel a img:hover {
+    border-bottom: 3px solid #F55856;
+}
+
+.bullsy-carousel .margin-opp {
+    margin-right: 0;
+}
+
+.carousel-navigator {
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.carousel-navigator i {
+    background-color: #473f3a;
+    color: #fff;
+    cursor: pointer;
+    margin-right: -4px;
+    padding: 6px 12px;
+    -webkit-transition: all 0.5s ease 0s;
+            transition: all 0.5s ease 0s;
+}
+
+.carousel-navigator i:hover {
+    background-color: #F55856;
+}
+
+
+
+/* =============================================================================== */
+/* ========================= This CSS for WP Theme Area ========================== */
+/* =============================================================================== */
+
+.wp-theme-area {
+    background-color: #F2F2F0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.wp-theme-area h1 {
+    font-size: 38px;
+}
+
+.wp-theme-area p {
+    font-size: 16px;
+}
+
+.wp-theme-area p a {
+    color: #F55856;
+}
+
+.wp-theme-area p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* =============================================================================== */
+/* ========================== This CSS for Footer Area =========================== */
+/* =============================================================================== */
+
+.footer-top-area {
+    background-color: #47403A;
+    padding: 50px 0 70px;
+}
+
+
+.footer-logo {
+    margin-top: 33px;
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-menu p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    padding: 0 10px;
+}
+
+.footer-menu ul li a span {
+    padding-left: 10px;
+}
+
+.top-button {
+    margin-top: 33px;
+    text-align: right;
+}
+
+.top-button i {
+    background-color: #3c3631;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    height: 50px;
+    margin-top: 4px;
+    padding-top: 12px;
+    text-align: center;
+    width: 50px;
+    -webkit-transition: all ease .3s;
+            transition: all ease .3s;
+}
+
+.top-button i:hover {
+    background-color: #C9524F;
+}
+
+
+
+/* =============================================================================== */
+/* ====================== This CSS for Footer Bottom Area ======================== */
+/* =============================================================================== */
+
+.footer-bottom-area {
+    background-color: #3B3532;
+    padding: 10px 0;
+}
+
+.footer-bottom-area ul li a {
+}
+
+.footer-bottom-area ul li:nth-child(1) a,
+.footer-bottom-area ul li:nth-child(2) a,
+.footer-bottom-area ul li:nth-child(3) a,
+.footer-bottom-area ul li:nth-child(4) a,
+.footer-bottom-area ul li:nth-child(5) a {
+    background-image: url("image/topSocialIcons.png");
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    float: left;
+    -webkit-transition: all ease .5s;
+            transition: all ease .5s;
+}
+
+.footer-bottom-area ul li:nth-child(1) a {
+    background-position: -90px -40px;
+}
+
+.footer-bottom-area ul li:nth-child(1) a:hover {
+    background-position: -90px 0;
+}
+
+.footer-bottom-area ul li:nth-child(2) a {
+    background-position: -180px -40px;
+}
+
+.footer-bottom-area ul li:nth-child(2) a:hover {
+    background-position: -180px 0;
+}
+
+.footer-bottom-area ul li:nth-child(3) a {
+    background-position: -135px -40px;
+}
+
+.footer-bottom-area ul li:nth-child(3) a:hover {
+    background-position: -135px 0;
+}
+
+.footer-bottom-area ul li:nth-child(4) a {
+    background-position: 0 -40px;
+}
+
+.footer-bottom-area ul li:nth-child(4) a:hover {
+    background-position: 0 0;
+}
+
+.footer-bottom-area ul li:nth-child(5) a {
+    background-position: -45px -40px;
+}
+
+.footer-bottom-area ul li:nth-child(5) a:hover {
+    background-position: -45px 0;
+}
+
+.footer-bottom-area p {
+    color: #fff;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 12px;
+}
+.footer-bottom-area p a {
+    color: #F55856;
+}
+.footer-bottom-area p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================================================================= */
+/* ================================================== This CSS For Blog Page =================================================== */
+/* ============================================================================================================================= */
+
+
+/* ================= Breadcrumbs Area ==================== */
+
+.breadcrumbs-area {
+    background-color: #FDFDFD;
+    border-bottom: 1px solid #eee;
+}
+
+.breadcrumb {
+    background-color: #fdfdfd;
+    margin: 10px 0 10px -15px;
+}
+
+.breadcrumb li {
+    font-size: 16px;
+}
+
+.breadcrumb > li + li:before {
+    content: "";
+    padding: 0 1px;
+}
+
+.breadcrumb li a {
+    color: #463f3a;
+    -webkit-transition: all ease .5s;
+            transition: all ease .5s;
+    font-size: 16px;
+}
+
+.breadcrumb li a:hover {
+    color: #F55856;
+}
+
+
+/* ================= News Main Content ==================== */
+
+.news-main-content-area {
+    background-color: #F8F8F8;
+    padding-top: 50px;
+}
+
+
+/* ================= News Content ==================== */
+
+.news-content .recent-post {
+    border-bottom: medium double #ddd;
+    margin-bottom: 40px;
+    padding-bottom: 35px;
+}
+
+
+.recent-post a {
+    color: #f55856;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.recent-post a:hover {
+    text-decoration: underline;
+}
+
+.recent-post iframe {
+
+}
+
+.embed-responsive-4by3 {
+    padding-bottom: 47%;
+}
+
+.news-posts img {
+
+}
+
+.news-posts img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.news-posts .portfolio-overlay p {
+    left: 46%;
+    top: 43%;
+}
+
+
+
+
+
+/* ================= Pagination ==================== */
+
+.pagination {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.pagination li a span {
+    color: #fff;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #9a9a9a;
+    color: #fff;
+    margin-left: 5px;
+    padding: 10px 14px;
+    border: 0;
+    -webkit-transition: .3s;
+            transition: .3s;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    background-color: #f55856;
+    color: #fff;
+}
+
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+  background-color: #f55856;
+}
+
+.pagination-area .pagination .page-number:hover {
+    background-color: #9A9A9A;
+}
+
+
+
+
+/* ================= News Sidebar ==================== */
+
+.news-sidebar {
+}
+
+.news-sidebar .col-md-3 {
+    background-color: #FFFFFF;
+    padding: 0 20px;
+}
+
+.single-sidebar {
+    margin-bottom: 50px;
+}
+
+.single-sidebar h2 {
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.single-sidebar h2:after {
+    background-color: #f55856;
+    bottom: -11px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 60px;
+}
+
+.single-sidebar img {
+    -webkit-transition: all ease .5s;
+            transition: all ease .5s;
+}
+
+.single-sidebar img:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+.single-sidebar h4 {
+    margin: 15px 0;
+}
+
+.single-sidebar h4 a {
+    color: #463f3a;
+    font-weight: 700;
+}
+
+.single-sidebar h4 a:hover {
+    color: #F55856;
+}
+
+.single-sidebar ul {}
+
+.single-sidebar ul li {}
+
+.single-sidebar ul li a {
+    color: #2a2b2c;
+    display: block;
+    padding: 6px 0;
+}
+
+.single-sidebar ul li a:hover {
+    color: #F55856;
+}
+
+.single-sidebar input[type="search"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    color: #000;
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.cloud-tags {
+    margin-bottom: 25px;
+}
+
+.cloud-tag ul li {
+    padding: 0;
+}
+
+.cloud-tag ul li a {
+    background: #f2f2f0 none repeat scroll 0 0;
+    color: #2a2b2c;
+    margin-bottom: 3px;
+    padding: 7px;   
+}
+
+.cloud-tag ul li a:hover {
+    background: #F55856;
+    color: #fff;
+}
+
+.news-content .page-posts {
+    border-bottom: none;
+}
+
+.page-posts p {
+    line-height: 1.8em;
+    margin-bottom: 25px;
+}
+
+.page-posts h3 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.page-posts ul {
+    margin-left: 40px;
+}
+
+.page-posts ul li {
+    background-image: url("image/bullet.png");
+    background-position: 0 14px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 4px 35px;
+}
+
+
+
+
+
+
+
+/* ============================================================================================================================= */
+/* ================================================== This CSS For Porfolio Page =============================================== */
+/* ============================================================================================================================= */
+
+.portfolio-page {
+    padding-top: 50px;
+}
+
+.portfolio-tab ul {
+    text-align: right;
+    margin-top: 18px;
+}
+
+.portfolio-tab ul span {
+    color: #463f3a;
+    padding: 0 5px;
+}
+
+.portfolio-tab ul li {
+}
+
+.portfolio-tab ul li a {
+    font-size: 16px;
+    color: #463f3a;
+}
+
+.portfolio-tab ul li a:hover,
+.portfolio-tab .active {
+    color: #F55856;
+}
+
+.portfolio-pagination {
+    margin: 20px 0;
+}
+
+
+
+
+
+/* ============================================================================================================================= */
+/* =================================================== This CSS For Team Page ================================================== */
+/* ============================================================================================================================= */
+
+.team-area {}
+
+.team {}
+
+.single-team {
+    border-bottom: medium double #eee;
+    margin: 50px 15px 0;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.single-team h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.team-post {
+    background: #f55856 none repeat scroll 0 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    margin: 5px auto 10px;
+    padding: 4px 15px;
+}
+
+.team-profile {
+    background: none;
+    margin-bottom: 5px;
+}
+
+.team-profile ul {}
+
+.team-profile ul li {
+    background: #3b3532 none repeat scroll 0 0;
+    margin: 0 1px;
+    padding: 0px;
+}
+
+.team-profile ul li a {
+}
+
+.team-profile ul li a.facebook {
+    background-position: -89px -40px;
+}
+
+.team-profile ul li a.facebook:hover {
+    background-position: -89px 0;
+    background-color: #3B5998;
+}
+
+.team-profile ul li a.twitter {
+    background-position: -132px -40px;
+}
+
+.team-profile ul li a.twitter:hover {
+    background-position: -132px 0;
+    background-color: #00B6F3;
+}
+
+.team-profile ul li a.pinterest {
+    background-position: -45px -40px;
+}
+
+.team-profile ul li a.pinterest:hover {
+    background-position: -45px 0;
+    background-color: #CB2027;
+}
+
+.team-profile ul li a.dribbble {
+    background-position: -180px -40px;
+}
+
+.team-profile ul li a.dribbble:hover {
+    background-position: -180px 0;
+    background-color: #EA4C89;
+}
+
+.team-profile ul li a.mail {
+    background-position: 2px -40px;
+}
+
+.team-profile ul li a.mail:hover {
+    background-position: 2px 0;
+    background-color: #CB2027;
+}
+
+.single-team > img {
+    border: 5px solid #463F3A;
+}
+
+.icon {}
+
+.icon img {
+    background-color: #F55856;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+.single-team p {
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+
+
+
+
+/* ============================================================================================================================= */
+/* ================================================== This CSS For Contact Form ================================================ */
+/* ============================================================================================================================= */
+
+.google-map {}
+.google-map iframe {
+    height: 400px;
+    width: 100%;
+    border: none;
+}
+
+.contact-us-area {
+    margin: 30px 0;
+}
+.contact-us-area h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact-us-area h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contact-us-area input,
+.contact-us-area textarea {
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    color: #666;
+    height: 50px;
+    padding: 10px;
+}
+
+.contact-us-form h2 {
+    margin-bottom: 50px;
+}
+
+.contact-us-address .single-sidebar h2:after {
+    background: none;
+}
+
+.contact-us-area input {
+    width: 70%;
+}
+
+.contact-us-area textarea {
+    height: 250px;
+    width: 90%;
+}
+
+.contact-us-area input:focus,
+.contact-us-area textarea:focus {
+    border: 1px solid #d7d7d7;
+}
+
+.contact-us-area input[type="submit"] {
+    background: #a0a0a0 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-family: "Oswald",sans-serif;
+    font-size: 16px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    width: 180px;
+    -webkit-transition: all ease .5s;
+            transition: all ease .5s;
+}
+
+.contact-us-area input[type="submit"]:hover {
+    background-color: #F55856;
+}
+
+.single-contact1 h2 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.single-contact p {
+    font-weight: 700;
+    line-height: 1.2em;
+}
